@@ -1,0 +1,15 @@
+{
+  "name": "httpa",
+  "version": "1.0.0",
+  "description": "http authenticated server",
+  "main": "server.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "author": "Greg Cochard <greg@gregcochard.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  }
+}
