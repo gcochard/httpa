@@ -5,4 +5,9 @@ var http = require('http')
   , cert = fs.readFileSync('certificate.pem')
   ;
 
-//TODO: Everything
+// monkeypatch http.ServerResponse
+require('./response');
+
+function handler(req,res){
+    
+}
